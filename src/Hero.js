@@ -1,8 +1,8 @@
-import React from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Hero(props) {
-  const HeroDiv = props.theme;
+  const HeroDiv = props.theme
 
   return (
     <HeroDiv>
@@ -22,7 +22,7 @@ function Hero(props) {
           </AnchorLink>
         </header>
         <div className="heroName">
-          <h1>BJ Collins</h1>
+          <h1>Ross Prehn</h1>
           <div className="themeSelector">
             <p>Try a different theme...</p>
             <div className="themes">
@@ -33,7 +33,7 @@ function Hero(props) {
         </div>
       </div>
     </HeroDiv>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

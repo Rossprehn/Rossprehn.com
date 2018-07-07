@@ -1,23 +1,21 @@
-import React from "react";
+import React from 'react'
 
 function About(props) {
-  const AboutDiv = props.theme;
+  const AboutDiv = props.theme
 
   return (
     <AboutDiv>
       <div id="about" className="about">
         <h2>About Me</h2>
         <p>
-          I am a full stack developer in the Denver area interested in creating
-          unique and amazing things using bleeding edge technologies. I have a
-          love for problem-solving and working in teams of people with different
-          skills to create solutions to interesting and difficult problems. My
-          outlook on development is to always be pushing the boundaries of what
-          I know and what is possible.
+          Full-stack web developer passionate about writing clean, functional code focused on
+          solving human problems while maintaining an eye for detail and design. Enjoys working with
+          teammates toward a common goal. When I’m not coding, I’m probably either biking, mixing
+          drinks for friends, playing with my cats or playing board games.
         </p>
       </div>
     </AboutDiv>
-  );
+  )
 }
 
-export default About;
+export default About

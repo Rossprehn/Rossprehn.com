@@ -1,31 +1,31 @@
-import React, { Component } from "react";
-import "./App.css";
-import Hero from "./Hero";
-import About from "./About";
-import Resume from "./Resume";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import styled from "styled-components";
-import heroBgImage from "./Synthwave-Neon-80s-Background-4K.jpg";
-import projectsBgImage from "./seamless-background-80s11-.jpg";
-import contactBgImage from "./seamless-background-80s-.jpg";
+import React, { Component } from 'react'
+import './App.css'
+import Hero from './Hero'
+import About from './About'
+import Resume from './Resume'
+import Projects from './Projects'
+import Contact from './Contact'
+import styled from 'styled-components'
+import heroBgImage from './Synthwave-Neon-80s-Background-4K.jpg'
+import projectsBgImage from './seamless-background-80s11-.jpg'
+import contactBgImage from './seamless-background-80s-.jpg'
 
 class App extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      theme: this.Eighties
-    };
-    this.themeChangeClickHandler = this.themeChangeClickHandler.bind(this);
+      theme: this.RainbOverload
+    }
+    this.themeChangeClickHandler = this.themeChangeClickHandler.bind(this)
   }
   themeChangeClickHandler(event) {
-    event.preventDefault();
-    this.setState({ theme: this[event.target.textContent] });
+    event.preventDefault()
+    this.setState({ theme: this[event.target.textContent] })
   }
 
   RainbOverload = styled.div`
     * {
-      font-family: "Titillium Web", sans-serif;
+      font-family: 'Titillium Web', sans-serif;
     }
     button {
       cursor: pointer;
@@ -93,20 +93,8 @@ class App extends Component {
 
     .about h2,
     .about p {
-      background: -webkit-linear-gradient(
-        135deg,
-        #23d5ab,
-        #ee7752,
-        #e73c7e,
-        #23a6d5
-      );
-      background: -o-linear-gradient(
-        135deg,
-        #23d5ab,
-        #ee7752,
-        #e73c7e,
-        #23a6d5
-      );
+      background: -webkit-linear-gradient(135deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
+      background: -o-linear-gradient(135deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
       background: linear-gradient(-45deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
       -webkit-background-clip: text;
       background-clip: text;
@@ -131,20 +119,8 @@ class App extends Component {
       -ms-flex-align: center;
       align-items: center;
       height: 30vh;
-      background: -webkit-linear-gradient(
-        135deg,
-        #e73c7e,
-        #23a6d5,
-        #23d5ab,
-        #ee7752
-      );
-      background: -o-linear-gradient(
-        135deg,
-        #e73c7e,
-        #23a6d5,
-        #23d5ab,
-        #ee7752
-      );
+      background: -webkit-linear-gradient(135deg, #e73c7e, #23a6d5, #23d5ab, #ee7752);
+      background: -o-linear-gradient(135deg, #e73c7e, #23a6d5, #23d5ab, #ee7752);
       background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab, #ee7752);
       -webkit-animation: Gradient 15s ease infinite;
       animation: Gradient 15s ease infinite;
@@ -206,20 +182,8 @@ class App extends Component {
       width: 100vw;
       height: 100vh;
       color: #fff;
-      background: -webkit-linear-gradient(
-        135deg,
-        #ee7752,
-        #e73c7e,
-        #23a6d5,
-        #23d5ab
-      );
-      background: -o-linear-gradient(
-        135deg,
-        #ee7752,
-        #e73c7e,
-        #23a6d5,
-        #23d5ab
-      );
+      background: -webkit-linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background: -o-linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       -webkit-animation: Gradient 15s ease infinite;
       animation: Gradient 15s ease infinite;
@@ -250,20 +214,8 @@ class App extends Component {
       -webkit-transition: 0.5s ease;
       -o-transition: 0.5s ease;
       transition: 0.5s ease;
-      background: -webkit-linear-gradient(
-        135deg,
-        #23a6d5,
-        #23d5ab,
-        #ee7752,
-        #e73c7e
-      );
-      background: -o-linear-gradient(
-        135deg,
-        #23a6d5,
-        #23d5ab,
-        #ee7752,
-        #e73c7e
-      );
+      background: -webkit-linear-gradient(135deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
+      background: -o-linear-gradient(135deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
       background: linear-gradient(-45deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
       -webkit-animation: Gradient 15s ease infinite;
       animation: Gradient 15s ease infinite;
@@ -276,20 +228,8 @@ class App extends Component {
       display: flex;
       flex-direction: column;
       width: 100vw;
-      background: -webkit-linear-gradient(
-        135deg,
-        #23a6d5,
-        #23d5ab,
-        #ee7752,
-        #e73c7e
-      );
-      background: -o-linear-gradient(
-        135deg,
-        #23a6d5,
-        #23d5ab,
-        #ee7752,
-        #e73c7e
-      );
+      background: -webkit-linear-gradient(135deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
+      background: -o-linear-gradient(135deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
       background: linear-gradient(-45deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
       -webkit-animation: Gradient 15s ease infinite;
       animation: Gradient 15s ease infinite;
@@ -326,20 +266,8 @@ class App extends Component {
     }
 
     .resume h2 {
-      background: -webkit-linear-gradient(
-        135deg,
-        #23d5ab,
-        #ee7752,
-        #e73c7e,
-        #23a6d5
-      );
-      background: -o-linear-gradient(
-        135deg,
-        #23d5ab,
-        #ee7752,
-        #e73c7e,
-        #23a6d5
-      );
+      background: -webkit-linear-gradient(135deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
+      background: -o-linear-gradient(135deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
       background: linear-gradient(-45deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
       -webkit-background-clip: text;
       background-clip: text;
@@ -581,7 +509,7 @@ class App extends Component {
         height: auto;
       }
     }
-  `;
+  `
 
   Eighties = styled.div`
     h1,
@@ -590,7 +518,7 @@ class App extends Component {
     .themeSelector p,
     header a,
     button {
-      font-family: "Permanent Marker", sans-serif;
+      font-family: 'Permanent Marker', sans-serif;
       font-variant: small-caps;
       background-image: -webkit-linear-gradient(#ff0ff8 0%, #f9f9f7 100%);
       -webkit-background-clip: text;
@@ -652,7 +580,7 @@ class App extends Component {
 
     .about p {
       color: #ff0ff8;
-      font-family: "Titillium Web", sans-serif;
+      font-family: 'Titillium Web', sans-serif;
       font-size: 25px;
       margin-right: 3rem;
       line-height: 2.5rem;
@@ -1027,22 +955,19 @@ class App extends Component {
         height: auto;
       }
     }
-  `;
+  `
 
   render() {
     return (
       <div className="App">
-        <Hero
-          clickHandler={this.themeChangeClickHandler}
-          theme={this.state.theme}
-        />
+        <Hero clickHandler={this.themeChangeClickHandler} theme={this.state.theme} />
         <About theme={this.state.theme} />
         <Projects theme={this.state.theme} />
         <Resume theme={this.state.theme} />
         <Contact theme={this.state.theme} />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

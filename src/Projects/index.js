@@ -1,11 +1,11 @@
-import React from "react";
-import Readativity from "./Readativity.png";
-import UBIIT from "./UBIIT.jpg";
-import FitCount from "./FitCount.png";
-import TheTippingPoint from "./TheTippingPoint.jpg";
+import React from 'react'
+import MindTime from './MindTime.png'
+import Roominate from './Roominate.png'
+import Lol from './Lol.png'
+import Weredar from './Weredar.png'
 
 function Projects(props) {
-  const ProjectsDiv = props.theme;
+  const ProjectsDiv = props.theme
 
   return (
     <ProjectsDiv>
@@ -15,51 +15,51 @@ function Projects(props) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://readativity-app.herokuapp.com"
+            href="https://github.com/Rossprehn/mind-time"
             className="container"
           >
-            <img src={Readativity} alt="Readativity" />
+            <img src={MindTime} alt="MindTime" />
             <div className="overlay">
-              <div className="text">Readativity</div>
+              <div className="text">Mind Time</div>
             </div>
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://bindingofisaactracker.firebaseapp.com/"
+            href="https://roominate-af37c.firebaseapp.com/"
             className="container"
           >
-            <img src={UBIIT} alt="Ultimate Binding of Isaac Item Tracker" />
+            <img src={Roominate} alt="Roominate" />
             <div className="overlay">
-              <div className="text">UBIIT</div>
+              <div className="text">Roominate</div>
             </div>
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/collinsbj/D3-Gun-Data"
+            href="https://weredar-1.firebaseapp.com/"
             className="container"
           >
-            <img src={TheTippingPoint} alt="The Tipping Point" />
+            <img src={Weredar} alt="Weredar" />
             <div className="overlay">
-              <div className="text">The Tipping Point</div>
+              <div className="text">Weredar</div>
             </div>
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/collinsbj/FitCount"
+            href="https://lol-planner.firebaseapp.com/"
             className="container"
           >
-            <img src={FitCount} alt="FitCount" />
+            <img src={Lol} alt="Lol" />
             <div className="overlay">
-              <div className="text">FitCount</div>
+              <div className="text">Lol</div>
             </div>
           </a>
         </div>
       </div>
     </ProjectsDiv>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
