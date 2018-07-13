@@ -6,8 +6,9 @@ import Resume from './Resume'
 import Projects from './Projects'
 import Contact from './Contact'
 import styled from 'styled-components'
-import heroBgImage from './Synthwave-Neon-80s-Background-4K.jpg'
-import projectsBgImage from './seamless-background-80s11-.jpg'
+import heroBgImage from './SpaceArt.jpg'
+// import heroBgImage from './Synthwave-Neon-80s-Background-4K.jpg'
+import projectsBgImage from './outer-space-background.png'
 import contactBgImage from './seamless-background-80s-.jpg'
 
 class App extends Component {
@@ -520,7 +521,7 @@ class App extends Component {
     button {
       font-family: 'Permanent Marker', sans-serif;
       font-variant: small-caps;
-      background-image: -webkit-linear-gradient(#ff0ff8 0%, #f9f9f7 100%);
+      background-image: -webkit-linear-gradient(#ff3232 0%, #f9f9f7 100%);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
