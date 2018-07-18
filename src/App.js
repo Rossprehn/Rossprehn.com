@@ -9,7 +9,7 @@ import styled from 'styled-components'
 import heroBgImage from './SpaceArt.jpg'
 // import heroBgImage from './Synthwave-Neon-80s-Background-4K.jpg'
 import projectsBgImage from './outer-space-background.png'
-import contactBgImage from './seamless-background-80s-.jpg'
+import contactBgImage from './outer-space-background.png'
 
 class App extends Component {
   constructor(props) {
